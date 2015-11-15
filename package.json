@@ -1,10 +1,11 @@
 {
   "name": "react-fluid-svg",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "React component wrapper for rendering cross-browser fluid svg images",
-  "main": "index.js",
+  "main": "dist/index",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "babel --optional runtime -d dist/ src/",
+    "prepublish": "npm run compile"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,14 @@
     "svg"
   ],
   "author": "Barack Obama",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react": "^0.14.2"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.1.18",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.0",
+    "gulp-react": "^3.1.0"
+  }
 }
