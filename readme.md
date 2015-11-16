@@ -8,6 +8,7 @@ npm install --save react-fluid-svg
 
 ## Usage
 ```
+import React, { Component } from "react";
 import FluidSvg from "react-fluid-svg";
 export default class MyComponent extends Component {
    render() {
@@ -34,8 +35,8 @@ Pay attention to child svg `viewBox` prop, it's required.
 
 
 ## Props
-`center`: center the container, defaults to: `false`
-`width`: container width, `number`, `required`
-`height`: container height, defaults to: `width`
-`minWidth`: Minimum container width, defaults to: `0`
-`maxWidth`: Maximum container width, defaults to: `width`
+- `center`: center the container, defaults to: `false`
+- `width`: container width, `number`, `required`
+- `height`: container height, defaults to: `width`
+- `minWidth`: Minimum container width, defaults to: `0`
+- `maxWidth`: Maximum container width, defaults to: `width`

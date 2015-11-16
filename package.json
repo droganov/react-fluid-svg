@@ -5,7 +5,7 @@
   "main": "dist/index",
   "scripts": {
     "compile": "babel --optional runtime -d dist/ src/",
-    "prepublish": "npm run compile"
+    "prepublish-bak": "npm run compile"
   },
   "repository": {
     "type": "git",
