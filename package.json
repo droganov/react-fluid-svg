@@ -1,8 +1,8 @@
 {
   "name": "react-fluid-svg",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "React component wrapper for rendering cross-browser fluid svg images",
-  "main": "dist/index",
+  "main": "lib/index",
   "scripts": {
     "compile": "babel -d lib/ src/",
     "prepublish": "npm run compile"
