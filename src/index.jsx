@@ -59,7 +59,6 @@ export default class Svg extends Component {
          },
       };
       const svgProps = Object.assign( {}, this.props.children.props, svgInjectProps );
-      console.log( 'htmlProps', htmlProps )
       return (
          <div
             {...htmlProps}
