@@ -1,13 +1,14 @@
 "use strict"
 import React, { Component } from "react";
+import PropTypes from 'prop-types';
 
 export default class Svg extends Component {
    static propTypes = {
-      center: React.PropTypes.bool,
-      width: React.PropTypes.number.isRequired,
-      height: React.PropTypes.number,
-      minWidth: React.PropTypes.number,
-      maxWidth: React.PropTypes.number,
+      center: PropTypes.bool,
+      width: PropTypes.number.isRequired,
+      height: PropTypes.number,
+      minWidth: PropTypes.number,
+      maxWidth: PropTypes.number,
    };
    static defaultProps = { center: false };
    render() {
